@@ -7,6 +7,19 @@ body {
 .container {
   max-width: 630px;
   margin: 40px auto;
+  padding: 20px 0;
+  border-top: 1px solid @df-border-gray;
+  border-bottom: 1px solid @df-border-gray;
+}
+
+.chatter {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+
+  @media @mobile {
+    font-size: 18px;
+  }
 }
 
 .source {
@@ -25,21 +38,20 @@ body {
 
 .index {
   font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  // color: @df-middle-gray;
-  padding: 0 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
 
-  @media @mobile {
-    padding: 0;
-    font-size: 14px;
-  }
+.caption {
+  font-size: 16px;
+  padding: 0 10px;
+  margin-top: 5px;
 }
 
 .flex-container {
   .display-flex();
   .align-items(center);
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 
   .text {
     .flex(1);

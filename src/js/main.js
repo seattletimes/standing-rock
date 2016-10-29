@@ -25,7 +25,7 @@ var changeImage = function() {
   if (document.querySelector(".visible")) document.querySelector(".visible").classList.remove("visible");
   document.querySelector(".img-" + index).classList.add("visible");
 
-  // document.querySelector(".caption").innerHTML = data[index].caption;
+  document.querySelector(".caption").innerHTML = data[index].caption;
   // var img = document.createElement("img");
   // img.src = `./assets/${data[index].image}`;
   // img.onload = function() {

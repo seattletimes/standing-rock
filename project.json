@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2016/environment/standing-rock"
     }
   },
   "title": "",
@@ -16,6 +16,6 @@
   "tags": [],
   "image": "assets/social.jpg",
   "sheets": [],
-  "production": false,
+  "production": true,
   "embedded": true
 }
