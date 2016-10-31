@@ -42,5 +42,11 @@ document.querySelector(".container").addEventListener("click", function(e) {
   if (e.target.classList.contains("next") && index < length) index += 1;
   if (e.target.classList.contains("previous") && index > 0) index -= 1;
   if (e.target.classList.contains("rewind")) index = 0;
+
+  if (e.target.classList.contains("img") && index < length) {
+    index += 1;
+  } else {
+    index = 0;
+  }
   changeImage();
 });
